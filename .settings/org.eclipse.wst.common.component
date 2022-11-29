@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><project-modules id="moduleCoreId" project-version="1.5.0">
+    <wb-module deploy-name="Pro3">
+        <wb-resource deploy-path="/" source-path="/WebContent" tag="defaultRootSource"/>
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/src"/>
+        <dependent-module archiveName="jstl-1.2.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/C:/Users/DELL/Desktop/SERVLET/JSTL/jstl-1.2.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="jstl-standard.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/C:/Users/DELL/Desktop/SERVLET/JSTL/jstl-standard.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="mysql-connector-java-8.0.30.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/C:/Users/DELL/Desktop/JAVA/Software/mysql-connector-java-8.0.30.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="jstl-impl-1.2-sources.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/C:/Users/DELL/Desktop/SERVLET/JSTL/jstl-impl-1.2-sources.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <property name="context-root" value="Pro3"/>
+        <property name="java-output-path" value="/Pro3/build/classes"/>
+    </wb-module>
+</project-modules>
